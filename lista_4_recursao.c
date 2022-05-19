@@ -91,7 +91,7 @@ int main()
 	printf(">> O termo %d da serie de Fibonacci eh %d\n", a, fib(a));
 	printf(">> O numero %d eh primo? %d\n", a, primo(a, 2));
 	printf(">> A sequencia decrescente de inteiros menores que %d e maiores que 0: ", a);
-	decrescente(a);
+	decrescente(a-1);
 	printf(">> O resto da divisao entre %d e %d eh %d\n", a, b, res(a, b));
 	printf(">> O valor do somatório de i*i, com i variando de 1 até %d eh %d\n", a, form(a));
 	printf(">> O mmc de %d e %d é %d\n", a, b, mmc(a, b));
