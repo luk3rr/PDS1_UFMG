@@ -72,7 +72,7 @@ long int expo(int k, int n) {
     return(k*expo(k, n-1));
 }
 
-int crescente(int x, int h) {
+void crescente(int x, int h) {
     printf("%d\n", h);
     if(h < x) {
         return(crescente(x, h+1));
