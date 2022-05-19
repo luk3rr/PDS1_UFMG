@@ -82,6 +82,7 @@ void crescente(int x, int h) {
 int main()
 {
 	int a, b, c;
+    printf("Digite tres numeros inteiros arbitrarios:\n");
 	scanf("%d %d %d", &a, &b, &c);
 
 	printf(">> O fatorial de %d! eh %ld\n", a, fatorial(a));
