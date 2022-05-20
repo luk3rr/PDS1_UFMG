@@ -32,7 +32,7 @@ int fatiamento(unsigned N, unsigned K, int C) {
 
 int main() {
     float height, base;
-    int n1, n2, K, C=0;
+    int n1, n2, K;
     long unsigned int N;
     printf(">> Digite a altura e a base de um triangulo qualquer: ");
     scanf("%f%f", &height, &base);
@@ -46,7 +46,7 @@ int main() {
 
     printf(">> Digite um numero para ser fatiado e outro para saber quantas vezes este ocorre naquele:\n");
     scanf("%ld%d", &N, &K);
-    fatiamento(N, K, C);
+    fatiamento(N, K, 0);
 
     return 0;
 }
