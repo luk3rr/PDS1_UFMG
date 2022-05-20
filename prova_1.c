@@ -5,7 +5,7 @@ float triangulo_area(float height, float base) {
 }
 
 float triangulo_truncado(float height, float base) {
-    return triangulo_area(height, base)*0.81;
+    return triangulo_area(height, base)*0.99;
 }
 
 int expo(int a, int b) {
